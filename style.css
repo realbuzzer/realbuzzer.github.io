@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+ 
+}
+
+body{
+    background-color: #31304D;
+
+
+}
+
+.top{
+    background-color: #161A30;
+    padding: 0;
+    height: 100px;
+    filter: drop-shadow(1px 1px 30px black);
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+.top h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    text-shadow: 10px 5px  black;
+}
+
+.top:hover{
+    transition-timing-function: ease-out;
+    cursor:default;
+    .items{
+    
+        display: block;
+        color: white;
+    }
+    height: 150px;
+}
+
+.items{
+    display: none;
+    height: 50px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.items ul a{
+    text-decoration: dashed;
+    color: white;
+    margin-right: 10px;
+}
+
+.places{
+    background-color: #EBE4D1;
+    height: auto;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    transition-duration: 0.5s;
+    filter: drop-shadow(1px 1px 30px);
+}
+
+.places img{
+    padding: 20px;
+}
+
+.places div{
+    transition-duration: 0.5s;
+}
+
+.places div:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 30px black);
+    cursor: pointer;
+    transition-timing-function: ease-out;
+}
+
+.hall{
+    border-radius: 12px;
+    margin: 20px;
+    text-align: center;
+    background-color: darkgray;
+    height: 280px;
+}
+
+.text{
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.all{
+    background-color: #EBE4D1;
+    margin: 50px;
+    border-radius: 14px;
+    height: auto;
+    filter: drop-shadow(1px 1px 30px black);
+    display: flex;
+    text-align: center;
+
+}
+
+.all img{
+    padding: 20px;
+}
+
+.all div{
+    transition-duration: 0.5s;
+}
+
+.all div:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 30px black);
+    cursor: pointer;
+    transition-timing-function: ease-out;
+}
+
+.txt2{
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.soon{
+    text-align: center;
+    background-color: #161A30;
+    height: 100px;
+    filter: drop-shadow(1px 1px 30px black);
+}
+.soon h2{
+    padding: 40px;
+}
+
+.soon h2:hover{
+    cursor: default;
+}
